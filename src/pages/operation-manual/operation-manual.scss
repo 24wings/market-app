@@ -1,0 +1,21 @@
+page-operation-manual {
+    ul {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        p {
+            background: #eee;
+            padding: 5px;
+            color: #000;
+            font-weight: 600;
+        }
+        li {
+            list-style: none;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            text-indent: 10px;
+            color: #000;
+            font-weight: 600;
+        }
+    }
+}

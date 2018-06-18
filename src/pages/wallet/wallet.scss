@@ -1,0 +1,35 @@
+page-wallet {
+    .mywallet {
+        background: #ff6565;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+    .button-ios,
+    .toolbar-background-ios {
+        background: #ff6565!important;
+    }
+    .col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb;
+        padding: 30px 0;
+        img {
+            width: 40px;
+            margin-bottom: 5px;
+        }
+    }
+    h2 {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .scroll-content {
+        margin-top: 43px;
+    }
+}

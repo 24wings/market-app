@@ -1,0 +1,32 @@
+page-home {
+    .grid {
+        padding: 0;
+        .col {
+            background: #fff;
+            border-bottom: 1px solid #ebebeb;
+            font-size: 14px;
+            text-indent: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            img {
+                position: relative;
+                left: -20px;
+            }
+        }
+        .today {
+            border-top: 1px solid #ebebeb;
+            .col {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #ff0000;
+                i {
+                    font-style: normal;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+ion-app.ios,
+.content-ios {
+    background: #fafafa;
+}
+
+.toolbar-background-ios {
+    background: #00c7ae!important;
+}
+
+.toolbar-title-ios {
+    color: #fff;
+}
+
+.button-ios {
+    background: #00c7ae!important;
+}
+
+.bar-button-default-ios,
+.bar-button-default.bar-button-ios-default,
+.bar-button-clear-ios-default {
+    color: #fff;
+}
+
+.justify-content {
+    display: flex;
+    justify-content: space-between;
+}

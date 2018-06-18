@@ -1,0 +1,15 @@
+page-about-us {
+    .tip {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+        color: #827f7f;
+        p {
+            margin: 0;
+            margin-top: 10px;
+            line-height: 20px;
+        }
+    }
+}

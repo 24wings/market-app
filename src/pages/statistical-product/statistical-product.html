@@ -1,0 +1,37 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>交易商品统计</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div class="all">
+        <i class="iconfont icon-suosou"></i>
+        <ion-datetime style="    color: #00c7ae;" displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" [(ngModel)]="startDt"></ion-datetime>
+        <p>到</p>
+        <ion-datetime style="    color: #00c7ae;" displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" [(ngModel)]="endDt"></ion-datetime>
+
+        <i class="iconfont icon-kalendar"></i>
+
+    </div>
+    <p style="    padding: 0 10px;position: relative;
+    z-index: 5555;" (click)="goCustomerPage()">交易客户
+        <ion-icon name="arrow-forward" style="float: right;"></ion-icon>
+    </p>
+    <div class="table">
+        <p>商品</p>
+        <p>数量</p>
+        <p>金额</p>
+        <p>均价</p>
+
+    </div>
+    <div class="tab">
+        <p>今日</p>
+        <p>昨日</p>
+        <p>三日内</p>
+        <p>本月</p>
+    </div>
+</ion-content>

@@ -1,0 +1,22 @@
+page-my-team {
+    .title_shop {
+        p {
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .list-ios>.item-block:last-child,
+    .list-ios>.item-wrapper:last-child .item-block,
+    .list-ios>.item-block:first-child {
+        border: none;
+    }
+    .item-ios {
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+    }
+}

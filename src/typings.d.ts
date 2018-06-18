@@ -1,0 +1,3 @@
+interface IonicConfig{
+    backButtonText?:string;
+}

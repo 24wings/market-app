@@ -1,0 +1,59 @@
+<!--
+  Generated template for the OpeningWallet2Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>开通钱包</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-list style="    margin-top: 10px;">
+
+        <ion-item style="margin-top: 17px;
+        border-top: none;">
+            <ion-label color="primary">实名类型</ion-label>
+            <div>
+
+
+                <ion-checkbox radio-color="balanced" toggle-class="toggle-dark" ng-value="item">
+                    个人
+
+                </ion-checkbox>
+                <ion-checkbox radio-color="balanced" toggle-class="toggle-dark" ng-value="item">
+                    企业
+
+                </ion-checkbox>
+            </div>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">姓名</ion-label>
+            <ion-input placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">手机号</ion-label>
+            <ion-input placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">身份证号</ion-label>
+            <ion-input placeholder=""></ion-input>
+        </ion-item>
+        <p style="    text-indent: 20px;
+        font-size: 17px;">此银行卡仅供提现</p>
+        <ion-item>
+            <ion-label color="primary">银行卡号</ion-label>
+            <ion-input placeholder="提现银行卡号"></ion-input>
+        </ion-item>
+    </ion-list>
+    <button ion-button color="xfd" block (click)="goNext()" style="width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 43px;">确定</button>
+
+</ion-content>

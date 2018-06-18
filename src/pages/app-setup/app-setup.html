@@ -1,0 +1,40 @@
+<!--
+  Generated template for the AppSetupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title></ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-list>
+        <button ion-item (click)="weightSignup()">
+    称重设置
+    </button>
+    </ion-list>
+    <ion-list>
+        <button ion-item (click)=" printSet()">
+  打印设置
+  </button>
+    </ion-list>
+    <ion-list>
+        <button ion-item (click)="voiceSetup()">
+语音设置
+</button>
+    </ion-list>
+    <ion-list>
+        <button ion-item (click)="goAbout()">
+关于我们
+</button>
+    </ion-list>
+    <button ion-button style="    width: 80%;
+    margin: 15px auto;
+    display: block;" (click)="breakApp()">退出登录</button>
+</ion-content>

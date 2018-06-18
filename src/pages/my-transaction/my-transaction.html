@@ -1,0 +1,65 @@
+<!--
+  Generated template for the MyTransactionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+  -->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>成功交易</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div class="all">
+        <i class="iconfont icon-suosou"></i>
+        <ion-datetime style="color: #00c7ae;" displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" [(ngModel)]="startDt"></ion-datetime>
+        <p>到</p>
+        <ion-datetime style="color: #00c7ae;" displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" [(ngModel)]="endDt"></ion-datetime>
+
+        <i class="iconfont icon-kalendar"></i>
+
+    </div>
+    <ion-list class="success">
+        <ion-item (click)="goDetail()">
+
+            <h2>货款金额 <span> 0.10元</span></h2>
+            <p>交易时间<span>20180122 19:44:28</span></p>
+            <p>付款方：<span>李四</span></p>
+            <p>付款方手机号<span>15172480645<ion-icon name="arrow-forward"></ion-icon></span></p>
+            <p>操作员 <span>李四</span></p>
+            <p>支付方式<span>钱包</span></p>
+            <p>订单类型<span>消费</span></p>
+        </ion-item>
+        <ion-item (click)="goDetail()">
+
+            <h2>货款金额 <span> 0.10元</span></h2>
+            <p>交易时间<span>20180122 19:44:28</span></p>
+            <p>付款方：<span>李四</span></p>
+            <p>付款方手机号<span>15172480645<ion-icon name="arrow-forward"></ion-icon></span></p>
+            <p>操作员 <span>李四</span></p>
+            <p>支付方式<span>钱包</span></p>
+            <p>订单类型<span>消费</span></p>
+        </ion-item>
+        <ion-item (click)="goDetail()">
+
+            <h2>货款金额 <span> 0.10元</span></h2>
+            <p>交易时间<span>20180122 19:44:28</span></p>
+            <p>付款方：<span>李四</span></p>
+            <p>付款方手机号<span>15172480645<ion-icon name="arrow-forward"></ion-icon></span></p>
+            <p>操作员 <span>李四</span></p>
+            <p>支付方式<span>钱包</span></p>
+            <p>订单类型<span>消费</span></p>
+        </ion-item>
+    </ion-list>
+    <p style="text-align: center;">加载完成</p>
+    <div class="tab">
+        <p>今日</p>
+        <p>昨日</p>
+        <p>三日内</p>
+        <p>本月</p>
+    </div>
+</ion-content>

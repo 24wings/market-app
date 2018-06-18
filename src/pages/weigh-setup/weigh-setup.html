@@ -1,0 +1,24 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>蓝牙秤设置</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-list>
+        <button ion-item>
+      蓝牙秤：
+    </button>
+    </ion-list>
+    <ion-list>
+        <button ion-item (click)="openMenu()">
+      称量单位：
+    </button>
+    </ion-list>
+    <button ion-button style="width: 80%;
+    margin: 15px auto;
+    display: block;" (click)="ok()">确定</button>
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header no-border>
+    <ion-navbar>
+        <ion-title style="text-align: center!important;">登录</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+
+    <ion-list inset>
+
+        <ion-item>
+            <ion-label><i class="iconfont icon-yidiandiantubiao08"></i></ion-label>
+            <ion-input type="text" placeholder="请输入手机号"></ion-input>
+        </ion-item>
+
+        <ion-item style="    border: none;" style="   border-bottom: 1px solid #c8c7cc;">
+            <ion-label> <i class="iconfont icon-password"></i> </ion-label>
+            <ion-input type="password" placeholder="请输入密码"></ion-input>
+        </ion-item>
+
+    </ion-list>
+
+
+
+
+
+
+    <div padding>
+        <button ion-button color="xfd" block (click)="sigin()">登录</button>
+    </div>
+    <div class="forget-password" style="display: flex;justify-content: space-between;font-size: 15px;padding: 15px;">
+        <p (click)="fogotPassword()">忘记密码</p>
+
+        <p (click)="register()">
+            没有账户，免费注册
+        </p>
+
+    </div>
+</ion-content>

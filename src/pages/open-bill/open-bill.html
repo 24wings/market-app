@@ -1,0 +1,65 @@
+<!--
+  Generated template for the OpenBillPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>
+
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="presentPopover()">
+                <ion-icon name="more"></ion-icon>
+    </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ul class="title" style="background: #3da7fc;color: #fff;">
+        <li>
+            No
+        </li>
+        <li>商品</li>
+        <li>数量</li>
+        <li>单价</li>
+        <li>金额</li>
+        <li> <i class="iconfont icon-delete"></i>
+        </li>
+    </ul>
+    <ul class="title">
+        <li>
+            1
+        </li>
+        <li style="text-decoration: underline; " (click)="productDetail()">小红小豆</li>
+        <li>2.00斤</li>
+        <li>2.00斤</li>
+        <li>4.00元</li>
+        <li><i class="iconfont icon-delete"></i></li>
+    </ul>
+
+
+
+    <div class="footer">
+        <div class="keyboard">
+            <div>
+                <i class="iconfont icon-jianpan" (click)=" keyboardPop()"></i>
+                <i class="iconfont icon-icon--"></i>
+            </div>
+            <div>合计&nbsp;&nbsp;0笔&nbsp;&nbsp;0斤&nbsp;&nbsp;0元</div>
+        </div>
+        <div class="pay">
+            <span><i class="iconfont icon-weixin"></i>微信 </span>
+            <span><i class="iconfont icon-zhifubao"></i>支付宝</span>
+            <span><i class="iconfont icon-qianbao"></i>钱包</span>
+            <span><i class="iconfont icon-qianfei"></i>赊销</span>
+        </div>
+
+    </div>
+</ion-content>

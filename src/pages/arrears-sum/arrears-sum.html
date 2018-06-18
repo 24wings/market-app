@@ -1,0 +1,38 @@
+<!--
+  Generated template for the ArrearsSumPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>未结清欠款记录</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div class="all">
+        <i class="iconfont icon-suosou"></i>
+        <ion-datetime style="    color: #00c7ae;" displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" [(ngModel)]="startDt"></ion-datetime>
+        <p>到</p>
+        <ion-datetime style="    color: #00c7ae;" displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" [(ngModel)]="endDt"></ion-datetime>
+
+        <i class="iconfont icon-kalendar"></i>
+
+    </div>
+    <p style="    padding: 0 10px;position: relative;
+z-index: 5555;" (click)="goCustomerPage()">交易客户
+        <ion-icon name="arrow-forward" style="float: right;"></ion-icon>
+    </p>
+    <div class="table">
+        <p>名称</p>
+        <p>总额</p>
+        <p>已还</p>
+        <p>时间 <i class="iconfont icon-arrLeft-fill"></i></p>
+        <p>还清</p>
+    </div>
+    <p style="text-align: center;">加载完成</p>
+</ion-content>

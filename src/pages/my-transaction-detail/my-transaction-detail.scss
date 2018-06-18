@@ -1,0 +1,61 @@
+page-my-transaction-detail {
+    .success {
+        border-bottom: 1px solid #fcfcfc;
+        h2 {}
+        span {
+            float: right;
+            ion-icon {
+                position: absolute;
+                right: 10px;
+            }
+        }
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 13px;
+        }
+    }
+    .list-ios>.item-block:first-child {
+        border-top: 0.55px solid #f5f4f9;
+    }
+    .list-ios .item-block .item-inner {
+        border-bottom: 0.55px solid #f5f4f9;
+    }
+    .item-ios {
+        padding-right: 10px;
+    }
+    h3 {
+        background: #f1eded;
+        width: 100vw;
+        position: relative;
+        width: 100vw;
+        z-index: 555;
+        padding: 10px 0;
+        width: 500px;
+        position: relative;
+        left: -20px;
+    }
+    .butt_div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: fixed;
+        bottom: 20px;
+        left: 0;
+        margin: 0 auto;
+        width: 100%;
+        p {
+            padding: 5px 45px;
+            background: #00c7ae;
+            color: #fff;
+        }
+    }
+}

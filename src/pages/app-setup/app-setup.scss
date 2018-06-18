@@ -1,0 +1,12 @@
+page-app-setup {
+    .list-ios {
+        margin: 0;
+    }
+    .item-ios {
+        border-bottom: none!important;
+    }
+    .list-ios>.item-block:last-child,
+    .list-ios>.item-wrapper:last-child .item-block {
+        border-bottom: none;
+    }
+}

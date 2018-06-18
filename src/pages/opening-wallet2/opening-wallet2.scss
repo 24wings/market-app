@@ -1,0 +1,24 @@
+page-opening-wallet2 {
+    .label-ios-primary,
+    .item-input .label-ios-primary,
+    .item-select .label-ios-primary,
+    .item-datetime .label-ios-primary {
+        color: #000;
+    }
+    .item-ios {
+        margin: 0 auto;
+        border-bottom: 1px solid #e3e3e6;
+    }
+    .list-ios .item-block .item-inner {
+        border: none;
+    }
+    .label-ios+ion-input .text-input,
+    .label-ios+ion-textarea .text-input,
+    .label-ios+.input+.cloned-input {
+        text-align: right;
+    }
+    ion-app.ios,
+    .content-ios {
+        background: #f2f2f2;
+    }
+}

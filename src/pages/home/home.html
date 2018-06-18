@@ -1,0 +1,124 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+    <div style="height: 145px;">
+        <ion-slides>
+
+            <ion-slide>
+                <img src="assets/imgs/banner.png" alt="">
+            </ion-slide>
+
+            <ion-slide>
+                <img src="assets/imgs/banner.png" alt="">
+            </ion-slide>
+
+            <ion-slide>
+                <img src="assets/imgs/banner.png" alt="">
+            </ion-slide>
+
+        </ion-slides>
+    </div>
+    <ion-grid>
+        <ion-row>
+            <ion-col style="border-right: 1px solid #ebebeb">
+
+                <img src="assets/imgs/icon.png" alt=""> 新闻资讯
+
+            </ion-col>
+            <ion-col (click)="goMarket()">
+
+                <img src="assets/imgs/icon.png" alt=""> 市场公告
+
+            </ion-col>
+        </ion-row>
+        <div style="height: 2px;background: #ebebeb;width: 100%;"></div>
+        <div>
+            <ion-row>
+                <p style="text-indent: 20px;
+                border-left: 10px solid #00c7ae;
+                margin: 5px 0 10px 20px;
+                font-size: 18px;
+                font-weight: 600;
+                padding: 0;">我是卖家</p>
+            </ion-row>
+            <ion-row style="border-bottom: 1px solid #ebebeb" class="today">
+                <ion-col style="    writing-mode: tb-rl;
+                max-width: 63px;
+                font-weight: 600;
+                position: relative;
+                ">今日</ion-col>
+                <ion-col>0<i>交易量（斤）</i></ion-col>
+                <ion-col>0.00 <i>交易金额（元）</i> </ion-col>
+                <ion-col>0 <i>交易笔数</i> </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb" (click)="OpenBill()">
+                    <img src="assets/imgs/icon.png" alt="">交易开单</ion-col>
+                <ion-col (click)="goMyTransactionPage()">
+                    <img src="assets/imgs/icon.png" alt="">我的交易</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb" (click)="goStatisticalsPage()">
+                    <img src="assets/imgs/icon.png" alt="">统计分析</ion-col>
+                <ion-col (click)="goCreditPage()">
+                    <img src="assets/imgs/icon.png" alt="">赊销记录</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb" (click)="goRepaymentPage()">
+                    <img src="assets/imgs/icon.png" alt="">还款记录</ion-col>
+                <ion-col (click)="goProductListPage()">
+                    <img src="assets/imgs/icon.png" alt="">商品管理</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb" (click)="goComeOutPage()">
+                    <img src="assets/imgs/icon.png" alt="">出厂申请</ion-col>
+                <ion-col> </ion-col>
+            </ion-row>
+        </div>
+        <div>
+            <ion-row>
+                <p style="text-indent: 20px;
+                border-left: 10px solid #00c7ae;
+                margin: 5px 0 10px 20px;
+                font-size: 18px;
+                font-weight: 600;
+                padding: 0;">我是买家</p>
+            </ion-row>
+            <ion-row class="today">
+                <ion-col style="    writing-mode: tb-rl;
+                max-width: 63px;
+                font-weight: 600;
+                position: relative;
+                ">今日</ion-col>
+                <ion-col style="display: flex;">0<i>交易量（斤）</i></ion-col>
+                <ion-col>0.00 <i>交易金额（元）</i> </ion-col>
+                <ion-col>0 <i>交易笔数</i> </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb">
+                    <img src="assets/imgs/icon.png" alt="">我要付款</ion-col>
+                <ion-col (click)="goMyTransactionPage()">
+                    <img src="assets/imgs/icon.png" alt="">我的交易</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb" (click)="goStatisticalsPage()">
+                    <img src="assets/imgs/icon.png" alt="">统计分析</ion-col>
+                <ion-col (click)="goArrearsSumPage()">
+                    <img src="assets/imgs/icon.png" alt="">欠款记录</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col style="border-right: 1px solid #ebebeb" (click)="goRepaymentPage()">
+                    <img src="assets/imgs/icon.png" alt="">我的还款</ion-col>
+                <ion-col (click)="goUnPayPage()">
+                    <img src="assets/imgs/icon.png" alt="">我的待付</ion-col>
+            </ion-row>
+
+        </div>
+    </ion-grid>
+
+
+
+
+</ion-content>s

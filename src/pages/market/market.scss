@@ -1,0 +1,15 @@
+page-market {
+    .all {
+        background: #fff;
+        padding: 20px;
+        border-bottom: 1px solid #efecec;
+        text-align: center;
+        p {
+            display: inline;
+        }
+        .datetime-ios,
+        .datetime-text {
+            display: inline;
+        }
+    }
+}
